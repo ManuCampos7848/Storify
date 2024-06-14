@@ -20,6 +20,7 @@ Por parte del administrador, tiene funcionalidades como:
 -	Etc.
 
 Algunas características del proyecto:
+-	La clase “Storify” dentro del package “Model” es la clase que modifica las listas de todo tipo, la clase que contiene todos los métodos que permiten el funcionamiento de todas las acciones que hacen los usuarios o el administrador. 
 -	Este proyecto fue realizado con el patrón de diseño modelo vista controlador (MVC). 
 -	Cuenta con una librería de nombre Fontawesomefx 8.9 la cual fue utilizada para proveer de logos e iconos al proyecto (se encuentra en la carpeta dentro del “src” con el nombre de “librerías”).
 -	Para la lista de canciones del usuario se utilizó la estructura de datos “Lista circular”.
@@ -53,6 +54,7 @@ On the administrator's side, it has functionalities such as:
 -	Etc.
 
 Some features of the project:
+- The “Storify” class within the “Model” package is the class that modifies lists of all types, the class that contains all the methods that allow the operation of all the actions performed by users or the administrator.
 - This project was carried out with the model view controller (MVC) design pattern.
 - It has a library called Fontawesomefx 8.9 which was used to provide logos and icons to the project (it is located in the folder within the “src” with the name “libraries”).
 - The “Circular List” data structure was used for the user's song list.
