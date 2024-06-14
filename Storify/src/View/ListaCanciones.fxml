@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="451.0" prefWidth="756.0" style="-fx-background-color: #000;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ListaCancionesController">
+   <top>
+      <AnchorPane prefHeight="77.0" prefWidth="756.0" style="-fx-background-color: #101010;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="96.0" layoutY="14.0" prefHeight="42.0" prefWidth="122.0" style="-fx-text-fill: #00d856;" text="Storify" textFill="WHITE">
+               <font>
+                  <Font name="Microsoft YaHei UI Bold" size="36.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="59.0" fitWidth="60.0" layoutX="24.0" layoutY="8.0">
+               <image>
+                  <Image url="@../Resources/LogoSpo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </top>
+   <bottom>
+      <AnchorPane prefHeight="41.0" prefWidth="756.0" style="-fx-background-color: #101010;" BorderPane.alignment="CENTER" />
+   </bottom>
+   <center>
+      <AnchorPane prefHeight="334.0" prefWidth="626.0" style="-fx-background-color: #000;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="btnVerInfo" layoutX="500.0" layoutY="223.0" mnemonicParsing="false" onAction="#verInformacion" prefHeight="46.0" prefWidth="117.0" style="-fx-background-radius: 100px; -fx-background-color: #00d856;" text="Ver Información" textFill="#101010">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="btnVolver" layoutX="703.0" layoutY="266.0" mnemonicParsing="false" onAction="#volverEvent" prefHeight="46.0" prefWidth="53.0" style="-fx-background-color: #00d856;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <FontAwesomeIconView disable="true" fill="#101010" glyphName="HOME" layoutX="711.0" layoutY="303.0" size="40">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </FontAwesomeIconView>
+            <TableView fx:id="tblDatos" layoutX="15.0" layoutY="14.0" prefHeight="200.0" prefWidth="728.0">
+              <columns>
+                <TableColumn fx:id="colNombre" prefWidth="190.0" text="Nombre" />
+                <TableColumn fx:id="colCodigo" prefWidth="74.0" text="Codigo" />
+                  <TableColumn fx:id="colAlbum" prefWidth="179.0" text="Album" />
+                  <TableColumn fx:id="colAnio" prefWidth="82.0" text="Año" />
+                  <TableColumn fx:id="colDuracion" prefWidth="74.0" text="Duración" />
+                  <TableColumn fx:id="colGenero" prefWidth="128.0" text="Genero" />
+              </columns>
+            </TableView>
+            <Button fx:id="btnOrdenarNombre" layoutX="117.0" layoutY="223.0" mnemonicParsing="false" onAction="#ordenarPorNombre" prefHeight="46.0" prefWidth="138.0" style="-fx-background-radius: 100px; -fx-background-color: #00d856;" text="Ordenar Por Nombre" textFill="#101010">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
