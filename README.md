@@ -19,6 +19,8 @@ Por parte del administrador, tiene funcionalidades como:
 -	Eliminar canciones.
 -	Etc.
 
+Para ejecutar el proyecto, iniciar la clase “Aplicación” que se encuentra en la carpeta “App” dentro de “src”. Dentro de “src” de igual manera se encuentra una carpeta de nombre “Imágenes del Funcionamiento” en la que se aprecian diferentes capturas de pantalla del proyecto ejecución, además de poder analizar funcionalidades tanto del cliente como del administrador. Muchas gracias de antemano por el tiempo brindado.
+
 ___________________________ English _____________________
 
 This project tries to emulate the main functionalities of the Spotify application, such as:
@@ -41,3 +43,5 @@ On the administrator's side, it has functionalities such as:
 - Add songs to an artist
 - Delete songs.
 -	Etc.
+
+To run the project, start the “Application” class found in the “App” folder within “src”. Within “src” there is also a folder called “Functional Images” in which you can see different screenshots of the execution project, in addition to being able to analyze functionalities of both the client and the administrator. Thank you very much in advance for the time provided.
