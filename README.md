@@ -19,7 +19,7 @@ Por parte del administrador, tiene funcionalidades como:
 -	Eliminar canciones.
 -	Etc.
 
-________________________________________________________________________________________ English _________________________________________________________________________________________
+___________________________ English _____________________
 
 This project tries to emulate the main functionalities of the Spotify application, such as:
 - Play a song.
